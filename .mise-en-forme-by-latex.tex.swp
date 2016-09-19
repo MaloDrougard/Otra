@@ -1,30 +1,22 @@
 \documentclass[oneside]{book}
 \usepackage[utf8]{inputenc} 
 
-% é fucking charset, allwyas troublesfdsa
-
 \begin{document}
 
 \title{\uppercase{Otra}}
-\author{Malo Drougard}
 \date{}
 \maketitle
 
 
 \chapter*{PRELUDE}
-
 \input{1_Prelude2.txt}
 
 
 \chapter*{OSCAR ET LUDOWIC}
-
 \input{2_Train.txt}
 
-
 \chapter*{MONDE}
-
 \input{3_Monde.txt}
-
 
 \chapter*{SEX}
 \input{4_Sex.txt}
@@ -42,7 +34,7 @@
 \input{8_Decouverte.txt}
 
 \chapter*{RAPPORT}
-\input{9_1-parmis-12.txt}
+\input{9_1-parmi-12.txt}
 
 \chapter*{RETOUR}
 \input{10_Retour.txt}
