@@ -9,9 +9,19 @@ Un otrion est caché parmi plein de réplicas, ces réplicas doivent être numé
 Cette expérience doit être répéter plusieurs fois de suite par des otriciens et des non-otriciens.\\
 \\
 Résultats attendus:\\
-a) Les non-otraciens devrait choisir leur éléments suivant une loi de distribution uniformes. C'est é dire que chaque éléments possède la même chance d'être sélectionné. Soit 1/12. Cette partie de l'expérience sert à prouver que, à priori, rien ne distingue l'otrion d'un élément répliqué. \\
-b) Les otraciens sont guidé dans leurs choix. Ainsi la probabilité que le véritable otrion soit choisi est plus grande que les autres éléments.\\
-Imaginons qu’un otricien subisse 6 fois cette exercice. Lors de la 1 ère exercices, il choisit l'otrion, Il avait 1/12 que cela arrive. Si il rechoisit l'otrion lors de 2 exercices, alors la probabilité que cela arrive, "naturellement",  est à 1/12 * 1/12 = 1/144. Si cela, ce produit 6 fois de suite, la probabilité est de 1/12 * 1/12 * 1/12 * 1/12 * 1/12 * 1/12 = 1/2985984. Il est alors raisonnable de penser que la distribution n'est pas uniforme et que l’otrion à une chance plus grande d'être sélectionné. \\
+a) Les non-otraciens devrait choisir leur éléments suivant une loi de
+distribution uniformes. C'est-à-dire que chaque éléments possède la même chance 
+d'être sélectionné. Soit 1/12. Cette partie de l'expérience sert à prouver que, 
+à priori, rien ne distingue l'otrion d'un élément répliqué. \\
+b) Les otraciens sont guidés dans leurs choix. Ainsi la probabilité que le 
+véritable otrion soit choisi est plus grande que les autres éléments.\\
+Imaginons qu’un otricien subisse 6 fois cette exercice. Lors du 1er
+exercice, il choisit l'otrion, Il avait 1/12 que cela arrive. S'il rechoisit 
+l'otrion lors de 2ème exercice, alors la probabilité que cela arrive, 
+"naturellement",  est à 1/12 * 1/12 = 1/144. Si cela, se produit 6 fois de 
+suite, la probabilité est de 1/12 * 1/12 * 1/12 * 1/12 * 1/12 * 1/12 = 
+1/2985984. Il est alors raisonnable de penser que la distribution n'est pas 
+uniforme et que l’otrion à une chance plus grande d'être sélectionné. \\
 \\
 \\
 Mise en œuvre:\\
@@ -26,8 +36,10 @@ Résultat\\
 \\
 Conclusion:\\
 Nous voyions clairement une tendance qui dévie de la normal. Pourtant, le résultat n'est pas suffisant pour prouver quoi que ce soit. \\
-Nous devons, donc, continué nos expérience. \\
-Une de nos candidate les plus prometteuse, Elisabeth, n'a pas pu effectuer correctement l'expérience. Son isolement total nous empêche de communiquer directement les instructions nécessaires. \\
+Nous devons, donc, continué nos expériences. \\
+Une de nos candidates, la plus prometteuse, Elisabeth, n'a pas pu effectuer 
+correctement l'expérience. Son isolement total nous empêche de communiquer 
+directement les instructions nécessaires. \\
 \\
 \\
 \\
