@@ -1,42 +1,112 @@
 EXPERIENCE: 1 PARMI 12\\
 \\
 \\
-Hypothèse:\\
- Certaines personne sont sensible à l'otril (les otraciens) sont attiré par l'objet investi par l'otril (l'otrion). \\
+\textbf{Hypothèse:}\\
+Les otraciens (personne sont sensible à l'otril) sont attirées par les objets 
+investis par l'otril (les otrions). \\
 \\
-Expérience:\\
-Un otrion est caché parmi plein de réplicas, ces réplicas doivent être numérotés de manière invisible. Ici nous avons 12 éléments en tout. Le candidat doit choisir un élément parmi les 12. \\
-Cette expérience doit être répéter plusieurs fois de suite par des otriciens et des non-otriciens.\\
+\textbf{Expérience:}\\
+Un otrion est caché parmi 11 réplicas. Ces réplicas sont numérotés de 
+manière invisible. Ici nous avons, donc, 12 éléments, 1 otrion et 11 réplicas. 
+Le candidat doit choisir 1 élément parmi les 12, 6 fois de suite. 
+Cette expérience est effectuée par des otriciens et des non-otriciens.\\
 \\
-Résultats attendus:\\
+\textbf{Résultats attendus:}\\
 a) Les non-otraciens devrait choisir leur éléments suivant une loi de
-distribution uniformes. C'est-à-dire que chaque éléments possède la même chance 
-d'être sélectionné. Soit 1/12. Cette partie de l'expérience sert à prouver que, 
-à priori, rien ne distingue l'otrion d'un élément répliqué. \\
+distribution uniformes. C'est-à-dire que chaque éléments possède la même 
+probabilité d'être sélectionné, soit 1/12. Cette partie de l'expérience sert à 
+prouver que, à priori, rien ne distingue l'otrion d'un élément répliqué. \\
 b) Les otraciens sont guidés dans leurs choix. Ainsi la probabilité que le 
-véritable otrion soit choisi est plus grande que les autres éléments.\\
-Imaginons qu’un otricien subisse 6 fois cette exercice. Lors du 1er
-exercice, il choisit l'otrion, Il avait 1/12 que cela arrive. S'il rechoisit 
-l'otrion lors de 2ème exercice, alors la probabilité que cela arrive, 
-"naturellement",  est à 1/12 * 1/12 = 1/144. Si cela, se produit 6 fois de 
-suite, la probabilité est de 1/12 * 1/12 * 1/12 * 1/12 * 1/12 * 1/12 = 
-1/2985984. Il est alors raisonnable de penser que la distribution n'est pas 
-uniforme et que l’otrion à une chance plus grande d'être sélectionné. \\
+véritable otrion soit choisi doit être plus grande que la probabilité de choisir 
+un réplica.\\
 \\
+\textbf{Développement mathématique:}\\
+Imaginons qu'une candidat effectue 1 tirage. Alors, il y a 2 événements 
+possibles: le candidat a choisi 1 otrion; le candidat a choisi 1 réplicas. Les 
+probabilités des deux événements sont les suivantes:
+\begin{align*}
+&\Pr(otrion) = 1/12 \\
+&\Pr(replica) = 11/12
+\end{align*}
+
+Si le candidats effectue 2 tirages. Alors, il a trois événements possibles: le 
+candidat à choisit 2 otrions, le candidat a choisit 1 otrion et un réplica; le 
+candidat choisit 2 réplicas. Les probabilités des trois événements sont les 
+suivantes:
+\begin{align*}
+&\Pr(2otrions) = 1/12 * 1/12 = 1/144 \\
+&\Pr(1otrion1replica) = 11/12 * 1 / 12 + 1/12 * 11/12 = 22/144 \\  
+&\Pr(2replicas) = 11/12 * 11/12 = 121/144
+\end{align*}
+Remarquer, que pour $\Pr(1otrion1replica)$, il faut additionner la probabilité 
+que le candidat tire en premier l'otrion à la probabilité que le candidat tire 
+l'otrion en second.  
 \\
-Mise en œuvre:\\
+
+Si le candidats effectue $n$ tirages. Alors, il a $(n+1)$ événements possibles: 
+le candidat à choisit $n$ otrion, le candidat a choisit $(n-1)$ otrion et 1 
+réplica; le candidat choisit $(n-2)$ otrions et 2 réplicas; ... ; le candidat 
+choisit $(n-n)$ otrions et $n$ réplicas. La probabilité de choisir x otrions 
+avec n tirage est:
+\begin{align*}
+&\Pr(XotrionsN-Xreplicas) = n!/((n-x)!*x!) * (1/12)^{x} * (11/12)^{n-x} 
+\end{align*}
+
+Pour les 6 tirages, nous avons les probabilités suivantes: 
+\begin{align*}
+&\Pr(6otrions) = 3.34897976680384E-007 \\
+&\Pr(5otrion1replica) = 2.21032664609053E-005 \\ 
+&\Pr(4otrion2replicas) = 0.0006078398 \\ 
+&\Pr(3otrion3replicas) = 0.0089149841 \\ 
+&\Pr(2otrion4replicas) = 0.0735486191 \\ 
+&\Pr(1otrion5replicas) = 0.3236139243 \\ 
+&\Pr(6replicas) = 0.5932921945\\ 
+\end{align*}
+\\
+\textbf{Mise en œuvre:}\\
 1) Acquisition de l'otrion: OK\\
-2) Réplication de l'otrion, les copies de l'otrion ne sont plus des otrions. Ils sont justes des réplicas du support physique de l'otril: OK\\
+2) Réplication de l'otrion, les copies de l'otrion ne sont plus des otrions. Ils 
+sont justes des réplicas du support physique de l'otril: OK\\
 3) Expérience avec des individus non otracien: Ok\\
-4) Expérience avec des otraciens: tableau ci-dessous\\
+4) Expérience avec des otraciens: Ok\\
 \\
 \\
-Résultat\\
- tableau \\
+\textbf{Résultats:}\\
 \\
-Conclusion:\\
-Nous voyions clairement une tendance qui dévie de la normal. Pourtant, le résultat n'est pas suffisant pour prouver quoi que ce soit. \\
-Nous devons, donc, continué nos expériences. \\
+Tableau des non-otraciens:
+\begin{table}[H]
+\begin{tabular}{|l|l|l|}
+\hline
+Nom      & Nb d'otrions tirés & Probabilité de l'événement \\ \hline
+Kathleen  & 1                 & 0.3236139243               \\ \hline
+Arianne & 0                 & 0.5932921945              \\ \hline
+Jules   & 2                 & 0.0735486191              \\ \hline
+Stéphanie   & 0                 & 0.5932921945              \\ \hline
+Asad      & 0                 & 0.5932921945              \\ \hline
+Vinnie    & 1                 & 0.3236139243              \\ \hline
+Géralde & 0                 & 0.5932921945              \\ \hline
+\end{tabular}
+\end{table}
+
+Tableau des otraciens:
+\begin{table}[H]
+\begin{tabular}{|l|l|l|}
+\hline
+Nom      & Nb d'otrions tirés & Probabilité de l'événement \\ \hline
+Maganat  & 3                 & 0.0089149841              \\ \hline
+Lumodril & 2                 & 0.0735486191              \\ \hline
+Hector   & 1                 & 0.3236139243              \\ \hline
+Saiana   & 0                 & 0.5932921945              \\ \hline
+Luc      & 3                 & 0.0089149841              \\ \hline
+Armel    & 0                 & 0.5932921945              \\ \hline
+Elisabeth & -                 & -              \\ \hline
+\end{tabular}
+\end{table}
+
+\textbf{Conclusion}:\\
+Nous voyions clairement une tendance qui dévie de la normal. Pourtant, le 
+résultat n'est pas suffisant pour prouver quoi que ce soit.
+Nous devons, donc, continué nos expériences. 
 Une de nos candidates, la plus prometteuse, Elisabeth, n'a pas pu effectuer 
 correctement l'expérience. Son isolement total nous empêche de communiquer 
 directement les instructions nécessaires. \\
@@ -44,12 +114,12 @@ directement les instructions nécessaires. \\
 \\
 \\
 \\
-Terminologies:\\
+\textbf{Terminologies:}\\
 \\
-Otra: monde des esprits\\
-otril: moyen de communication entre l’Otra et notre monde\\
-otrion: élément chargé en otril\\
-otracien: homme sachant percevoir et/ou manipuler l'otril\\
-otracienne: femme sachant percevoir et/ou manipuler l'otril\\
+\textbf{Otra}: monde des esprits\\
+\textbf{otril}: moyen de communication entre l’Otra et notre monde\\
+\textbf{otrion}: élément chargé en otril\\
+\textbf{otracien}: homme sachant percevoir et/ou manipuler l'otril\\
+\textbf{otracienne}: femme sachant percevoir et/ou manipuler l'otril\\
 \\
 \\
