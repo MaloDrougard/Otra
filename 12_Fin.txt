@@ -27,21 +27,24 @@ pris la lettre cérémonieusement, sortit le plus grand des couteaux. Un énorme
 poissonnier, à la lame fine et souple. Il plongea délicatement le métal dans 
 l'enveloppe et d'un mouvement sec, trancha le papier. A l'intérieur, une 
 écriture tout cabossé, comme si Ludowic avait écrit de sa fausse main, 
-renfermait ce texte. 
+renfermait ce texte: 
 
+\vspace{2em}
+{\itshape
+\hfill Lausanne, 15 Octobre, 2014
 
+Pour Oscar, mon ami,
 
-"
-
-Pour Oscar, mon ami,					Lausanne, 15 Octobre, 2014
-
+\vspace{1em}
 Dans l'air une matière, une force invisible, impalpable, in-quantifiable. 
 Certains l'appelle la magie, d'autre Dieu ou encore les forces de la nature. 
 Pourtant, il n'est pas raisonnable de nier son existence. Toutes les expériences 
 que j'ai accumulées ces dernières années montrent que l'humain est affecté de 
 manière non-négligeable de cette substance. Elle semble guider leur actes, 
 comme une voix qui leurs souffle aux oreilles. 
-Je vous suis éternellement reconnaissant à Elisabeth et toi, car vous êtes la preuve ultime! 
+Je vous suis éternellement reconnaissant à Elisabeth et toi, car vous êtes la 
+preuve ultime! 
+
 Raisonnons par l'absurde. Imaginons que cette force n'existe pas, alors quelles étaient les chances que l'on se rencontre et devienne amis? Très proche de zéro.
 Pourtant, nous nous sommes rencontré. Alors cette force existe. 
 Il parait, maintenant, clair que quelques chose nous a réunis. Mais quels sont 
@@ -54,8 +57,9 @@ Je vous souhaite plein de belles rencontres pour le reste de votre vie.
 Mes amitiés,
 
 Ludowic
+}
 
-"
+\vspace{1em}
 
 En annexe, il y avait un plan pour retrouver Elisabeth. 
 
