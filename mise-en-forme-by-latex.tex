@@ -1,7 +1,22 @@
 \documentclass[oneside]{book}
 \usepackage[utf8]{inputenc} 
 
+% pour le fichier 1_parmi_12
+\usepackage{amsmath}
+\usepackage{float}
+
+
 %\DeclareUnicodeCharacter{0010}{ } % to fix the bug: Package inputenc Error: Unicode char \u8: not set up for use with LaTeX.
+
+
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptername}{}{\Huge}[]
+%\titleformat{name=\chapter, numberless}[block]{}{}{0pt}{}[]
+\titlespacing{\chapter}{0pt}{-3em}{2.5em}
+%\titlespacing{name=\chapter, numberless}{0em}{0em}{0em}
+
+
 
 
 \begin{document}
@@ -15,7 +30,7 @@
 
 
 
-\chapter*{PRELUDE}
+\vspace{-3em}\chapter*{PRELUDE}
 \input{1_Prelude2.txt}
 
 
